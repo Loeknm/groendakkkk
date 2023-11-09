@@ -1,0 +1,281 @@
+* {
+    text-decoration: none;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page1 {
+    background-image: url(images/pagina1.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+
+}
+.page2 {
+background-image: url(images/pagina2.png); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+
+section {
+    height: auto;
+    width: 80vw;
+    background-color: #fff9ed;
+    border-radius: 2vw;
+    margin-left: 8vw;
+    margin-top: 4vw;
+    padding-bottom: 5vw;
+    padding-top: 0.1vw;
+    
+}
+.sectionhp {
+    height: 140vw;
+}
+
+h1  {
+    padding-top: 2vw;
+    margin-bottom: -2vw;
+    padding-left: 5vw;
+    font-size: 6vw;
+    color: #606268;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h2 {
+    padding-left: 5vw;
+    font-size: 4vw;
+    color: #606268;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h3 {
+    font-size: 4vw;
+    padding-left: 5vw;
+    color: #606268;
+    margin-top: -0.2em;
+    margin-bottom: 0.5em ;
+}
+
+
+.homepageh1{
+    font-size: 9vw;
+    color: #606268;
+    margin: 0;
+    justify-content: center;
+}
+
+section p {
+    padding-top: 1vw;
+    padding-left: 5vw ;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+    max-width: 58vw;
+    color: #606268;
+}
+
+section img {
+    height: 11vw;
+    width: 55vw;
+    padding-left: 4vw;
+    padding-top: 3vw;
+}
+.linkbutton1 {
+    margin: 5vw;
+    padding: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    background-color: #606268;
+    border-radius: 2vw;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 25vw;
+    height: 10vw;
+    color:  #fff9ed;
+    transition: background-color 0.3s,
+        color 0.3s;
+   
+        
+}
+.linkbutton1:hover{
+    background-color: #ff9480;
+    color: rgb(255, 255, 255);
+}
+.linkbutton1:active {
+    opacity: 0.5;
+    border-radius: 2vw;
+}
+.linkbutton1 {
+    text-decoration: none;
+}
+
+.blok1 {
+    background-color: #606268;
+    text-decoration: none;
+   margin-left: 10vw;
+   padding: 5vw;
+   margin-top: 10vw;
+   margin-right: 40vw;
+}
+
+#pagina2logo {
+    margin-top: -10em;
+}
+
+#pagina3logo4 {
+    margin-top: -10vw;
+    width: 35vw;
+}
+#groendak {
+    width: 56vw;
+    height: 30vw;
+
+}
+#pagina2logo3 {
+    margin-top: -10em;
+}
+
+
+#droneshot1 {
+    width: 60vw;
+    height: 20vw;
+    border-radius: 2vw;
+}
+#droneshot2 {
+    width: 60vw;
+    height: 30vw;
+    border-radius: 2vw;
+}
+
+
+.homepaginap {
+    padding-bottom: 4vw;
+    font-size: 6vw;
+    max-width: 50vw;
+    color: #606268;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 4vw;
+    padding-left: 5vw;
+    color: #606268;
+}
+
+ul p {
+    padding-left: 0vw;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box1 p {
+    max-width: 28vw;
+}
+
+.box1 img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 3vw;
+    margin: 0vw
+}
+
+.box2 {
+    display: flex;
+}
+
+.box2 p {
+    max-width: 28vw;
+}
+
+.box2 img {
+    width: 35vw;
+    height: 30vw;
+    border-radius: 3vw;
+    margin: 0vw
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 2vw;
+    padding-left: 5vw;
+}
+figure {
+    margin: 0vw;
+}
+
+footer {
+    border-radius: 2vw;
+    margin-top: 5vw;
+}
+
+footer p {
+    font-size: 3vw;
+    justify-content: center;
+    margin-left: 19vw;
+}
+
+#footer {
+      border-radius: 2vw;
+    margin-top: 5vw;
+}
+
+#footer p {
+    font-size: 3vw;
+    justify-content: center;
+    margin-left: 19vw;
+}
+
+.navbar {
+    background-color: #606268;
+    opacity: 0.9;
+    width: 80vw;
+    text-align: center;
+    border-radius: 1vw;
+    position: sticky;
+    bottom: 0.5vw;
+    margin-left: 8vw;
+    
+}
+
+.navbar li {
+    color: #fff9ed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.navbar ul li {
+    display: inline-flex;
+    list-style: none;
+    margin: 1vw 2vw;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff9ed;
+}
+
+.navbar ul li a:active {
+    color:#ff9480
+}
+
+.navbar ul {
+    padding: 0vw;
+}
+
+.textlink {
+    font-weight: bold;
+    color:#606268
+}
+
+ul li {
+    margin-top: 0vw;
+}
+ul p {
+    margin-top: -0.2em;
+    margin-bottom: 0.5em ;
+}
